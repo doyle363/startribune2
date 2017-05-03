@@ -8,7 +8,11 @@
 
 @font-face {
 	font-family: 'Karla', sans-serif;
+	src: url(../fonts/karlaregular.ttf);
+}
+@font-face {
 	font-family: 'Rubia', serif;
+	src: url(../fonts/rubiaregular.otf);
 }
 
 body {
@@ -192,7 +196,7 @@ h6 {
 	color: #009245;
 }
 #weather p {
-	font-family: rubia;
+	font-family: Rubia;
 	position: absolute;
 	display: inline-block;
 	padding-top: 40px;
@@ -229,7 +233,7 @@ h1 {
 }
 .toptext2{
 	color: #009245;
-	font-family: rubia;
+	font-family: Rubia;
 	top: 715px;
 }
 #author {
@@ -317,7 +321,7 @@ video {
 #caption {
 	position: relative;
 	top: 510px;
-	font-family: rubia;
+	font-family: Rubia;
 	color: #009245;
 }
 

@@ -8,7 +8,11 @@
 
 @font-face {
 	font-family: 'Karla', sans-serif;
+	src: url(../fonts/karlaregular.ttf);
+}
+@font-face {
 	font-family: 'Rubia', serif;
+	src: url(../fonts/rubiaregular.otf);
 }
 
 body {
@@ -222,7 +226,7 @@ h6 {
 	color: #009245;
 }
 #weather p {
-	font-family: rubia;
+	font-family: Rubia;
 	position: absolute;
 	display: inline-block;
 	padding-top: 40px;
@@ -406,7 +410,7 @@ h1 {
 }
 
 .quotes {
-	font-family: rubia;
+	font-family: Rubia;
 	font-size: 4em;
 	color: white;
 	z-index: 50;
