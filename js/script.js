@@ -205,7 +205,7 @@ $(window).scroll(function () {
       'top' : 850-($(this).scrollTop()/50)+"px"
    }); 
 
-});
+}); 
 
 
 
