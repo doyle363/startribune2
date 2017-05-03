@@ -505,7 +505,7 @@ h3 {
 	width: 372px;
 }
 #article_5 #image6 {
-	background: url(/images/article_2.jpg);
+	background: url(../images/article_2.jpg);
 	background-size: 150%;
 	background-position: 20% 0%;
 	width: 200px;
