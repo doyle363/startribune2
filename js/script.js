@@ -75,19 +75,6 @@ $(document).ready(function() {
 	$("#article_3").mouseleave(function() {
 	$("#article_3 h3").css({color: '#333333'}, 100);
 	});
-	
-	$("#article_4").mouseenter(function() {
-		$("#image5").animate({opacity: '1'}, 100);
-	});
-	$("#article_4").mouseleave(function() {
-		$("#image5").animate({opacity: '.7'}, 100);
-	});
-	$("#article_4").mouseenter(function() {
-		$("#article_4 h3").css({color: 'white'}, 100);
-	});
-	$("#article_4").mouseleave(function() {
-		$("#article_4 h3").css({color: '#333333'}, 100);
-	});
 
 	$("#article_5").mouseenter(function() {
 		$("#image6").animate({opacity: '1'}, 100);
